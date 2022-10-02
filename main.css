@@ -13,9 +13,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: rgba(255, 255, 255, 0.907);
+    --clr-light: #fff;
     --clr-dark: #141313;
-    --clr-accent: #05d031;
+    --clr-accent: #16e0bd;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -441,7 +441,7 @@ portfolio__item:focus .portfolio__img {
 /* footer */
 
 .footer {
-    background: #111;
+    background: #303030;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
