@@ -306,6 +306,7 @@ header {
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
+
 }
 
 .section__title--services {
@@ -390,7 +391,19 @@ header {
         z-index: 2;
 
     }
+
+
 }
+
+/* .shade-for-background-image {
+    width: 100%;
+    height: 100%;
+    background: red;
+    opacity: .7;
+    z-index: 3;
+
+
+} */
 
 /* My Work*/
 
