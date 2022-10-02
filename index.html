@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach's Portfolio Website</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/c2c3ea8d94.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <p class="logo">&lt; My Logo &gt;</p>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">My Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">My work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Zachary Taylor</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full-Stack Web Developer</p>
+        <img src="photos/Snapshot_225cropped.png" alt="A picture of Zach smiling" class="intro__img">
+    </section>
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design & Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eos inventore, totam ipsa maiores
+                    quod? Praesentium neque sequi eaque voluptate deserunt voluptatibus. Illo voluptatibus ipsum quis
+                    laborum iste provident iusto?</p>
+            </div>
+            <div class="service">
+                <h3>E-commerce</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam a, dolorum corrupti, nostrum non
+                    neque debitis voluptas repellat deserunt nemo facilis mollitia maxime, natus illum! Ipsa quos magnam
+                    laudantium vero.</p>
+            </div>
+            <div class="service">
+                <h3>Social Media</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima odit repellat, assumenda
+                    consectetur cupiditate eius cumque? Corrupti deserunt atque unde! Dolores repudiandae reprehenderit
+                    excepturi illum soluta facilis maxime commodi?</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My work</a>
+    </section>
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer in Japan</p>
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quo incidunt modi provident itaque iure
+                ipsa? In vel quisquam maxime, voluptate reprehenderit suscipit at mollitia cum, perferendis quos
+                officiis exercitationem?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, dicta praesentium neque dolore in
+                expedita, quo esse facere eaque, inventore veniam quaerat molestias culpa cum. Quo laborum explicabo
+                distinctio deleniti.</p>
+        </div>
+        <img src="photos/real cropped holy shit form paint wtf.png" alt="Zach looking cool" class="about-me__image">
+    </section>
+    <!--My work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">
+            Click on a project to see details</p>
+        <div class="portfolio">
+            <!--Portfolio item 1-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="photos/Rectangle 3-1.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 2-->
+            <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 3-->
+            <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-2.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 4-->
+            <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-3.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 5-->
+            <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-4.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 6-->
+            <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-5.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 7-->
+            <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-8.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 8-->
+            <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-9.png" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 9-->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-10.png" alt="" class="portfolio__img">
+            </a> -->
+            <!--Portfolio item 10-->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="photos/Rectangle 3-12.png" alt="" class="portfolio__img">
+            </a> -->
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:wakuwakuzakku@gmail.com" class="footer__link">wakuwakuzakku@gmail.com</a>
+        <ul class="social-list">
+
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/Zakkku"
+                    target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+
+            <li class="social-list__item"><a class="social-list__link" href="https://www.freecodecamp.org/zakku"
+                    target="_blank"><i class="fa-brands fa-free-code-camp"></i></a>
+            </li>
+
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/zachary-taylor-782020226/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </li>
+
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.instagram.com/sillyhakujin/?hl=en" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
