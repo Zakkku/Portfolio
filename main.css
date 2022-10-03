@@ -302,7 +302,9 @@ header {
 
 .my-services {
 
+    background: var(--clr-dark);
     background-image: url(photos/services-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(photos/services-bg.jpg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
@@ -454,7 +456,7 @@ portfolio__item:focus .portfolio__img {
 /* footer */
 
 .footer {
-    background: #303030;
+    background: rgb(31, 31, 31);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
