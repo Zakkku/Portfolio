@@ -146,6 +146,7 @@ header {
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);
     min-width: 200px;
+    margin-top: 0;
 }
 
 .nav {
@@ -459,7 +460,7 @@ portfolio__item:focus .portfolio__img {
     background: rgb(31, 31, 31);
     color: var(--clr-accent);
     text-align: center;
-    padding: 2.5em 0;
+    padding: 2em 0;
     font-size: var(--fs-h3);
 }
 
@@ -496,6 +497,16 @@ portfolio__item:focus .portfolio__img {
 
 .social-list__link {
     padding: .5em;
+}
+
+.footer-logo {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-right: 1.5em;
+    text-align: right;
+    color: var(--clr-accent);
 }
 
 /* Individual portfolio item styles*/
