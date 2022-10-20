@@ -522,3 +522,7 @@ portfolio__item:focus .portfolio__img {
     margin-left: auto;
     margin-right: auto;
 }
+
+#project-pages__img {
+    width: 400px;
+}
