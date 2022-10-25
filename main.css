@@ -542,3 +542,16 @@ header {
 #project-pages__img {
     width: 400px;
 }
+
+/* Special styling for portfolio item with white background */
+
+@media (max-width: 600px) {
+    .portfolio-page__body {
+        background: var(--clr-dark);
+        color: var(--clr-light);
+    }
+
+    .portfolio-page__subtitle {
+        color: var(--clr-dark);
+    }
+}
