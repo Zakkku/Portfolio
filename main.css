@@ -447,7 +447,7 @@ header {
 .portfolio__img,
 .project__img {
     transition:
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        transform 500ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
 }
 
