@@ -434,6 +434,7 @@ header {
     }
 
 
+
 }
 
 /* .shade-for-background-image {
@@ -591,5 +592,22 @@ header {
 
     .portfolio-page__subtitle {
         color: var(--clr-dark);
+    }
+}
+
+@media (max-width: 599px) {
+    #zach-vlog-img {
+        height: auto;
+        width: 60%;
+        margin: 50px auto -170px auto;
+    }
+
+    #home {
+        text-align: center;
+    }
+
+    .intro__img {
+        width: 75%;
+        margin: 0 auto -140px auto;
     }
 }
