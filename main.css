@@ -274,24 +274,32 @@ header {
     flex-wrap: wrap;
 }
 
+#icon-container>img {
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
 .web-icon {
     width: 4em;
 }
 
 #git-logo {
     width: 8em;
+    margin-left: 10px;
 }
 
 #github-logo {
     width: 5em;
+    margin-left: 5px;
 }
 
 #shopify-logo {
     width: 5em;
+    margin-left: -10px;
 }
 
 #liquid-logo {
-    width: 5em;
+    width: 4.7em;
 }
 
 #figma-logo {
@@ -616,4 +624,10 @@ header {
     text-align: center;
     padding-top: 0;
     padding-bottom: 2em;
+}
+
+@media (max-width: 599px) {
+    .technologies-container {
+        padding-bottom: 0.8em;
+    }
 }
