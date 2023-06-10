@@ -623,7 +623,7 @@ header {
 .technologies-container {
     text-align: center;
     padding-top: 0;
-    padding-bottom: 2em;
+    padding-bottom: 0;
 }
 
 @media (max-width: 599px) {
