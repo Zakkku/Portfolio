@@ -266,6 +266,38 @@ header {
     display: inline-block;
 }
 
+#icon-container {
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.web-icon {
+    width: 4em;
+}
+
+#git-logo {
+    width: 8em;
+}
+
+#github-logo {
+    width: 5em;
+}
+
+#shopify-logo {
+    width: 6em;
+}
+
+#liquid-logo {
+    width: 5em;
+}
+
+#figma-logo {
+    width: 10em;
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
