@@ -396,6 +396,8 @@ header {
     }
 }
 
+/* About me section */
+
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
@@ -414,6 +416,7 @@ header {
             "subtitle img"
             "text img";
         column-gap: 2em;
+
 
     }
 
