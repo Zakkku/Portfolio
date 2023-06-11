@@ -606,7 +606,14 @@ header {
     }
 }
 
+/*Extra media queries and other misc styles*/
+
 @media (max-width: 599px) {
+
+    #home>h1 {
+        margin-bottom: 14px;
+    }
+
     #zach-vlog-img {
         height: auto;
         width: 60%;
@@ -623,11 +630,13 @@ header {
     }
 }
 
+
 .technologies-container {
     text-align: center;
     padding-top: 0;
     padding-bottom: 0;
 }
+
 
 @media (max-width: 599px) {
     .technologies-container {
