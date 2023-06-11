@@ -647,6 +647,30 @@ header {
         padding-bottom: 0.8em;
     }
 
+    /* All icons are 70% the size of the desktop version*/
 
+    .web-icon {
+        width: 50.4px;
+    }
+
+    #git-logo {
+        width: 100.8px;
+    }
+
+    #github-logo {
+        width: 63px;
+    }
+
+    #shopify-logo {
+        width: 63px;
+    }
+
+    #liquid-logo {
+        width: 59.15px;
+    }
+
+    #figma-logo {
+        width: 112px;
+    }
 
 }
