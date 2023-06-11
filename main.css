@@ -280,30 +280,31 @@ header {
 }
 
 .web-icon {
-    width: 4em;
+    width: 72px;
 }
 
+
 #git-logo {
-    width: 8em;
+    width: 144px;
     margin-left: 10px;
 }
 
 #github-logo {
-    width: 5em;
+    width: 90px;
     margin-left: 5px;
 }
 
 #shopify-logo {
-    width: 5em;
+    width: 90px;
     margin-left: -10px;
 }
 
 #liquid-logo {
-    width: 4.7em;
+    width: 84.5px;
 }
 
 #figma-logo {
-    width: 9em;
+    width: 160px;
 }
 
 @media (min-width: 600px) {
@@ -639,8 +640,13 @@ header {
 }
 
 
+/*My tech stack on mobile*/
+
 @media (max-width: 599px) {
     .technologies-container {
         padding-bottom: 0.8em;
     }
+
+
+
 }
