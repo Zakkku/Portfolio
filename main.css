@@ -644,7 +644,7 @@ header {
 
 @media (max-width: 599px) {
     .technologies-container {
-        padding-bottom: 0.8em;
+        padding-bottom: 0;
     }
 
     /* All icons are 70% the size of the desktop version*/
