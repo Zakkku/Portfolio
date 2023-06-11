@@ -610,10 +610,6 @@ header {
 
 @media (max-width: 599px) {
 
-    #home>h1 {
-        margin-bottom: 14px;
-    }
-
     #zach-vlog-img {
         height: auto;
         width: 60%;
@@ -622,6 +618,11 @@ header {
 
     #home {
         text-align: center;
+        padding-top: 0;
+    }
+
+    #home>h1 {
+        margin-bottom: 14px;
     }
 
     .intro__img {
