@@ -640,7 +640,7 @@ header {
 }
 
 
-/*My tech stack on mobile*/
+/*My tech stack and other styles on mobile*/
 
 @media (max-width: 599px) {
     .technologies-container {
@@ -671,6 +671,10 @@ header {
 
     #figma-logo {
         width: 112px;
+    }
+
+    header {
+        padding-bottom: 0;
     }
 
 }
