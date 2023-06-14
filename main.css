@@ -586,6 +586,15 @@ header {
     color: var(--clr-accent);
 }
 
+#scroll-to-top {
+    text-decoration: none;
+    color: var(--clr-accent);
+}
+
+#scroll-to-top:hover {
+    color: var(--clr-light);
+}
+
 /* Individual portfolio item page styles*/
 
 .portfolio-item-individual {
