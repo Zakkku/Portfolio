@@ -152,6 +152,11 @@ header {
 .portfolio-item-logo-link {
     text-decoration: none;
     color: black;
+    transition-duration: 0.4s;
+}
+
+.portfolio-item-logo-link:hover {
+    color: var(--clr-accent);
 }
 
 .nav {
