@@ -149,6 +149,11 @@ header {
     margin-top: 0;
 }
 
+.portfolio-item-logo-link {
+    text-decoration: none;
+    color: black;
+}
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
