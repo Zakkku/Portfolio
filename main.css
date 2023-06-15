@@ -160,11 +160,11 @@ header {
 }
 
 .hidden-text {
-    display: none;
+    color: white;
   }
 
   .logo:hover .hidden-text {
-    display: inline;
+    color: black;
   }
 
   .portfolio-item-logo-link.clicked + .hidden-text {
