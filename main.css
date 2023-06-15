@@ -159,6 +159,18 @@ header {
     color: var(--clr-accent);
 }
 
+.hidden-text {
+    display: none;
+  }
+
+  .portfolio-item-logo-link:hover + .hidden-text {
+    display: inline;
+  }
+
+  .portfolio-item-logo-link.clicked + .hidden-text {
+    display: none;
+  }
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
