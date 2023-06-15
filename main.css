@@ -350,6 +350,17 @@ header {
     }
 }
 
+.about-me__link {
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+    color: var(--clr-accent);
+}
+
+.about-me__link:hover {
+    text-decoration: underline;
+    color: var(--clr-dark);
+}
+
 /* My services section */
 
 
