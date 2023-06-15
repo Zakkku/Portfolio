@@ -159,17 +159,7 @@ header {
     color: var(--clr-accent);
 }
 
-.hidden-text {
-    color: white;
-  }
 
-  .logo:hover .hidden-text {
-    color: black;
-  }
-
-  .portfolio-item-logo-link.clicked + .hidden-text {
-    display: none;
-  }
 
 .nav {
     position: fixed;

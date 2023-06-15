@@ -11,6 +11,3 @@ navLinks.forEach(link => {
     })
 })
 
-document.querySelector('.portfolio-item-logo-link').addEventListener('click', function() {
-    this.classList.toggle('clicked');
-  });
