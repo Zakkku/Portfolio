@@ -163,7 +163,7 @@ header {
     display: none;
   }
 
-  .portfolio-item-logo-link:hover + .hidden-text {
+  .logo:hover .hidden-text {
     display: inline;
   }
 
