@@ -10,3 +10,7 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+document.querySelector('.portfolio-item-logo-link').addEventListener('click', function() {
+    this.classList.toggle('clicked');
+  });
