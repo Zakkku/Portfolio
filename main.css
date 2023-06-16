@@ -628,7 +628,14 @@ header {
 
 /* Special styling for portfolio item with white background */
 
-@media (max-width: 600px) {
+/* edit on June 16, 2023 
+   I realized I had accidentally copied the portfolio-item2 html page for all of the new ones, 
+   resulting in black background for all of them. But then I decided I actually don't like the 
+   look of the black background so I commented out the following code for now. */
+
+/* Proposed update: put the green accent color on the img borders on mobile*/
+
+/* @media (max-width: 600px) {
     .portfolio-page__body {
         background: var(--clr-dark);
         color: var(--clr-light);
@@ -637,7 +644,7 @@ header {
     .portfolio-page__subtitle {
         color: var(--clr-dark);
     }
-}
+} */
 
 /*Extra media queries and other misc styles*/
 
