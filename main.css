@@ -545,6 +545,12 @@ header {
     }
 }
 
+@media (max-width: 370px) {
+    .section__subtitle--work {
+        font-size: 18px;
+    }
+}
+
 /* footer */
 
 .footer {
