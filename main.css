@@ -545,7 +545,7 @@ header {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 385px) {
     .section__subtitle--work {
         font-size: 18px;
     }
