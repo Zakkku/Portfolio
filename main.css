@@ -729,3 +729,33 @@ header {
     }
 
 }
+
+/* Everything looked fine on iphone 12 but after checking on a Samsung android, 
+   the logos looked much bigger. Upon further inspection in Chrome Dev Tools it
+   looks like we need another breakpoint at around 385px*/
+
+@media (max-width: 385px) {
+    .web-icon {
+        width: 36px;
+    }
+
+    #git-logo {
+        width: 72px;
+    }
+
+    #github-logo {
+        width: 45px;
+    }
+
+    #shopify-logo {
+        width: 45px;
+    }
+
+    #liquid-logo {
+        width: 42.25px;
+    }
+
+    #figma-logo {
+        width: 80px;
+    }
+}
