@@ -494,6 +494,7 @@ header {
     color: var(--clr-light);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    font-size: 20px;
 }
 
 .portfolio {
