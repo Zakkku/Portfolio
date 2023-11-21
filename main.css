@@ -551,6 +551,43 @@ header {
     }
 }
 
+/* Instagram blockquote section */
+.blockquote-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.blockquote-section__title_container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1100px) {
+    .blockquote-section {
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 650px) {
+    .blockquote-section__title_container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .no-margin-no-padding {
+        margin: 25px 0 0 0;
+        padding: 0;
+    }
+
+
+}
+
+
 /* footer */
 
 .footer {
