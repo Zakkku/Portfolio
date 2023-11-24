@@ -287,7 +287,7 @@ header {
 }
 
 #icon-container>img {
-    margin-right: 5px;
+
     margin-bottom: 20px;
 }
 
@@ -311,8 +311,9 @@ header {
     margin-left: -10px;
 }
 
-#liquid-logo {
+#react-logo {
     width: 84.5px;
+    margin-right: 20px;
 }
 
 #figma-logo {
@@ -748,8 +749,9 @@ header {
         width: 63px;
     }
 
-    #liquid-logo {
+    #react-logo {
         width: 59.15px;
+        margin-right: 8px;
     }
 
     #figma-logo {
@@ -788,11 +790,12 @@ header {
         width: 45px;
     }
 
-    #liquid-logo {
+    #react-logo {
         width: 42.25px;
     }
 
     #figma-logo {
         width: 80px;
+
     }
 }
