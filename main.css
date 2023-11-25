@@ -546,6 +546,16 @@ header {
     }
 }
 
+
+
+.blockquote-section div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 385px) {
     .section__subtitle--work {
         font-size: 18px;
@@ -559,7 +569,11 @@ header {
     justify-content: space-around;
 }
 
-
+.no-margin-no-padding {
+    margin-top: 0;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
 
 .blockquote-section__title_container {
     display: flex;
