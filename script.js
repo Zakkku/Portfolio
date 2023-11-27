@@ -11,3 +11,15 @@ navLinks.forEach(link => {
     })
 })
 
+document.addEventListener('DOMContentLoaded', function () {
+    const changingText = document.getElementById('changing-text');
+    const words = ['Web Developer', 'Software Engineer', 'E-commerce Expert', 'Shopify Specialist', 'App Developer', 'JavaScript Addict', 'Pokemon Master'];
+    let index = 1;
+
+    function changeText() {
+        changingText.textContent = words[index];
+        index = (index + 1) % words.length;
+    }
+
+    setInterval(changeText, 1300);
+});
