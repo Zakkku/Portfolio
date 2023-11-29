@@ -274,6 +274,8 @@ header {
 
 /* Intro section */
 
+
+
 .intro {
     position: relative;
 
@@ -569,6 +571,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 @media (max-width: 385px) {
@@ -806,6 +809,10 @@ canvas {
         margin-bottom: 14px;
     }
 
+    .intro {
+        padding-bottom: 70px;
+    }
+
     .intro__img {
         width: 75%;
         margin: 0 auto -50px auto;
@@ -825,6 +832,8 @@ canvas {
 @media (max-width: 599px) {
     .technologies-container {
         padding-bottom: 0;
+        padding-top: 0;
+        margin-top: 0;
     }
 
     /* All icons are 70% the size of the desktop version*/
