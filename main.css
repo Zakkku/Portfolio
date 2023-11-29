@@ -134,6 +134,12 @@ h3 {
     height: 50.5px;
 }
 
+@media (max-width:382px) {
+    .section__subtitle--about {
+        padding-right: 0;
+    }
+}
+
 
 
 /* header */
