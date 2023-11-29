@@ -13,13 +13,21 @@ navLinks.forEach(link => {
 
 document.addEventListener('DOMContentLoaded', function () {
     const changingText = document.getElementById('changing-text');
-    const words = ['Web Developer', 'Software Engineer', 'E-commerce Expert', 'Shopify Specialist', 'App Developer', 'JavaScript Addict', 'Pokémon Master'];
-    let index = 1;
+    const words = ['Web Developer   ', 'Software Engineer   ', 'E-commerce Expert   ', 'Shopify Specialist   ', 'App Developer   ', 'JavaScript Addict   ', 'Pokémon Master'];
+    let wordIndex = 0;
+    let charIndex = 0;
 
-    function changeText() {
-        changingText.textContent = words[index];
-        index = (index + 1) % words.length;
+    function typeText() {
+        const currentWord = words[wordIndex];
+        changingText.textContent = currentWord.substring(0, charIndex);
+
+        if (charIndex < currentWord.length) {
+            charIndex++;
+        } else {
+            charIndex = 0;
+            wordIndex = (wordIndex + 1) % words.length;
+        }
     }
 
-    setInterval(changeText, 1300);
+    setInterval(typeText, 100);
 });
