@@ -571,11 +571,57 @@ header {
     }
 }
 
+/*Upwork Section*/
+.upwork-section {
+    text-align: center;
+    position: relative;
+}
+
+.upwork-section>h2 {
+    position: relative;
+    z-index: 2;
+}
+
+
+.upwork-section>img {
+    position: relative;
+    width: 50%;
+    margin: 20px auto 0 auto;
+    border: 1px solid #141313;
+    z-index: 2;
+}
+
+@media (max-width: 950px) {
+    .upwork-section>img {
+        width: 90%;
+    }
+}
+
+#confetti-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* Set the z-index of the confetti container */
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
 /* Instagram blockquote section */
 .blockquote-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #141313;
 }
 
 .no-margin-no-padding {

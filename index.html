@@ -237,12 +237,22 @@
 
         </div>
     </section>
+    <section class="upwork-section">
+        <!-- Confetti Container -->
+        <div id="confetti-container">
+            <canvas id="confetti"></canvas>
+        </div>
+        <h2>Hire me on <a class="about-me__link" target="_blank"
+                href="https://www.upwork.com/freelancers/~01e028584497e5b6e5">Upwork!</a></h2>
+        <img src="photos/upwork-profile2.png" alt="Zachary's Upwork Profile">
+    </section>
+
     <section class="no-margin-no-padding">
         <div class="blockquote-section__title_container">
             <h2 class="section__title blockquote-section__title">{Instagram}</h2>
         </div>
-
     </section>
+
 
     <section class="blockquote-section">
 
@@ -555,6 +565,67 @@
         <p class="footer-logo"><a id="scroll-to-top" href="#">&lt;/ Zach-in-Japan &gt;</a></p>
     </footer>
     <script src="script.js"></script>
+    <script>
+        // Constants
+        const confettiCount = 30;
+        const confettiSize = 10;
+        const colors = ["#4285F4", "#34A853", "#FBBC05", "#EA4335"]; // Google colors
+
+        // Get canvas and context
+        const canvas = document.getElementById("confetti");
+        const ctx = canvas.getContext("2d");
+
+        // Set canvas dimensions
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        // Confetti objects
+        const confettiArray = [];
+
+        // Create confetti objects
+        for (let i = 0; i < confettiCount; i++) {
+            confettiArray.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                color: colors[Math.floor(Math.random() * colors.length)],
+                angle: Math.random() * 2 * Math.PI,
+                speed: 2 + Math.random() * 2,
+            });
+        }
+
+        // Function to draw confetti
+        function drawConfetti() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            for (const confetti of confettiArray) {
+                ctx.fillStyle = confetti.color;
+                ctx.beginPath();
+                ctx.arc(confetti.x, confetti.y, confettiSize, 0, 2 * Math.PI);
+                ctx.fill();
+
+                // Update confetti position
+                confetti.x += confetti.speed * Math.cos(confetti.angle);
+                confetti.y += confetti.speed * Math.sin(confetti.angle);
+
+                // Wrap around when confetti goes off the bottom
+                if (confetti.y > canvas.height + confettiSize) {
+                    confetti.x = Math.random() * canvas.width;
+                    confetti.y = -confettiSize; // Start from the top
+                }
+            }
+
+            requestAnimationFrame(drawConfetti);
+        }
+
+        // Resize event listener
+        window.addEventListener("resize", () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        // Start the animation
+        drawConfetti();
+    </script>
 </body>
 
 </html>
