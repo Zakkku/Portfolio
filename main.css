@@ -70,7 +70,7 @@ strong {
 /* Buttons */
 
 .btn {
-    display: inline-block;
+    /* display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
     color: var(--clr-dark);
@@ -80,11 +80,27 @@ strong {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
-    transition: transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out; */
+    background-color: var(--clr-accent);
+
+    color: var(--clr-dark);
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid var(--clr-light);
+    font-weight: bold;
+
 }
 
 .btn:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    border: 2px solid var(--clr-accent);
 }
 
 /* Typography*/
