@@ -35,6 +35,14 @@
 }
 
 /* General Styles */
+.video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {}
 
 html {
     scroll-behavior: smooth;
