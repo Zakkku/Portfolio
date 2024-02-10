@@ -168,6 +168,41 @@ h3 {
     }
 }
 
+/* image above header */
+.container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: var(--clr-light);
+    display: none;
+    /* hiding it for now because I don't like the way it looks on top of the new banner*/
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 768px) {
+    .container {
+        background-image: url('photos/Web\ Dev\ Japan\ \(9\).png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    .container {
+        height: 170px;
+        background-image: url('photos/Web\ Dev\ Japan\ \(9\)revised.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 
 /* header */
@@ -256,7 +291,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: var(--clr-light);
     width: 2em;
     height: 3px;
     border-radius: 1em;
