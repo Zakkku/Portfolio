@@ -369,7 +369,7 @@ header {
 
     .intro__img {
         grid-area: img;
-        width: 250px;
+        width: 400px;
         position: relative;
         z-index: 2;
     }
@@ -843,6 +843,7 @@ canvas {
     .intro__img {
         width: 75%;
         margin: 0 auto -50px auto;
+        max-width: 234px;
     }
 }
 
