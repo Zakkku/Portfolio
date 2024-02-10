@@ -15,7 +15,8 @@
 
     --clr-light: #fff;
     --clr-dark: #141313;
-    --clr-accent: #16e0bd;
+    /* --clr-accent: #16e0bd; */
+    --clr-accent: #9134eb;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -41,8 +42,6 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-
-.video-container iframe {}
 
 html {
     scroll-behavior: smooth;
@@ -113,6 +112,10 @@ strong {
 
 /* Typography*/
 
+.purple-text {
+    color: var(--clr-accent);
+}
+
 h1,
 h2,
 h3 {
@@ -156,6 +159,7 @@ h3 {
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
     height: 50.5px;
+    color: var(--clr-light);
 }
 
 @media (max-width:382px) {
