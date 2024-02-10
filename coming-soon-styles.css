@@ -13,7 +13,7 @@
 
     --clr-light: #fff;
     --clr-dark: #141313;
-    --clr-accent: #16e0bd;
+    --clr-accent: #9134eb;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -41,8 +41,8 @@ h3 {
     font-size: 1.5em;
     font-weight: 100;
     letter-spacing: 1em;
-    text-shadow: 0px 0px 20px #1abb9c;
-    color: #1abb9c;
+    text-shadow: 0px 0px 20px #9134eb;
+    color: #9134eb;
 
     /* display: inline-block; */
 }
@@ -80,7 +80,7 @@ h3 {
     height: inherit;
     border-radius: inherit;
     width: 0;
-    background: #1abb9c;
+    background: #9134eb;
     animation: load 3s linear infinite;
     animation-delay: 2s;
 }
