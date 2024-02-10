@@ -13,7 +13,7 @@ navLinks.forEach(link => {
 
 document.addEventListener('DOMContentLoaded', function () {
     const changingText = document.getElementById('changing-text');
-    const words = ['Web Developer   ', 'Software Engineer   ', 'E-commerce Expert   ', 'Shopify Specialist   ', 'App Developer   ', 'JavaScript Addict   ', 'Pokémon Master'];
+    const words = ['Web Developer   ', 'Software Engineer   ', 'E-commerce Expert   ', 'Shopify Specialist   ', 'React Developer   ', 'JavaScript Addict   ', 'Coding Evangelist   ', 'Pokémon Master'];
     let wordIndex = 0;
     let charIndex = 0;
 
