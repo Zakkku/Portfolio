@@ -389,6 +389,8 @@ header {
     .section__subtitle--intro {
         height: 42px;
         width: 280px;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 }
