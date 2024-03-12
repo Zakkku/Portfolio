@@ -41,6 +41,41 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 20px;
+    padding-left: 16px;
+}
+
+/* CSS to style the iframe */
+iframe {
+    border-radius: 15px;
+    border: none;
+    width: 515px;
+    height: 270px;
+    margin-right: 16px;
+}
+
+/* media queries for i-frames */
+@media only screen and (max-width: 470px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    iframe {
+        margin-bottom: 16px;
+        max-width: 85%;
+        max-height: 190px;
+    }
+}
+
+@media screen and (min-width: 471px) and (max-width: 1120px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    iframe {
+        margin-bottom: 16px;
+    }
 }
 
 html {
