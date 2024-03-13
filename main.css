@@ -1033,3 +1033,7 @@ canvas {
     opacity: 1;
     transform: translateY(0);
 }
+
+#shadow-host-companion {
+    display: none;
+}
