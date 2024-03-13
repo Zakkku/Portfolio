@@ -1034,6 +1034,7 @@ canvas {
     transform: translateY(0);
 }
 
+/* to-do: figure out the underlying reason for the shadow-host-companion showing up on my page and creating white space below the footer */
 #shadow-host-companion {
     display: none;
 }
