@@ -1062,4 +1062,8 @@ canvas {
         width: auto;
         height: 500px;
     }
+
+    .business_partners_section h2 {
+        margin-bottom: 40px;
+    }
 }
