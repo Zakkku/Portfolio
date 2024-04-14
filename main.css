@@ -1039,3 +1039,27 @@ canvas {
 #shadow-host-companion {
     display: none;
 }
+
+/* Business Partners section*/
+
+.business_partners_section {
+    text-align: center;
+
+}
+
+.business_partners_section h2 {
+    margin-bottom: 20px;
+}
+
+#larrys_img {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+@media (min-width: 600px) {
+    #larrys_img {
+        width: auto;
+        height: 500px;
+    }
+}
