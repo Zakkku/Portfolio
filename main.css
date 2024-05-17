@@ -51,6 +51,7 @@ iframe {
     width: 480px;
     height: 270px;
     margin-right: 16px;
+    transition-duration: 0.4s;
 }
 
 iframe:hover {
@@ -309,6 +310,7 @@ header {
     font-size: var(--fs-h2);
     text-decoration: none;
     padding: 4px;
+    transition-duration: 0.4s;
 }
 
 .nav__link:hover {
