@@ -48,9 +48,15 @@
 iframe {
     border-radius: 15px;
     border: none;
-    width: 515px;
+    width: 480px;
     height: 270px;
     margin-right: 16px;
+}
+
+iframe:hover {
+
+    box-shadow: 0 0 10px 6px #ff1493;
+    /*horizontal offset, vertical offset, blur radius, spread radius, color*/
 }
 
 /* media queries for i-frames */
