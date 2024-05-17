@@ -144,6 +144,7 @@ strong {
     background-color: var(--clr-light);
     color: var(--clr-dark);
     border: 2px solid var(--clr-accent);
+    box-shadow: 0 0 10px 5px #ff1493;
 }
 
 /* Typography*/
@@ -301,10 +302,12 @@ header {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
+    padding: 4px;
 }
 
 .nav__link:hover {
     color: var(--clr-accent);
+    box-shadow: 0 0 10px 5px #ff1493;
 }
 
 .nav-toggle {
