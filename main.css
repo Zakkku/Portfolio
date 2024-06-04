@@ -1064,8 +1064,13 @@ canvas {
 
 #larrys_img {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+#larrys_img:hover {
+    box-shadow: 0 0 10px 6px #ff1493;
 }
 
 @media (min-width: 600px) {
