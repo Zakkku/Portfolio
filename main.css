@@ -712,6 +712,12 @@ header {
     margin: 20px auto 0 auto;
     border: 1px solid #141313;
     z-index: 2;
+    transition-duration: 0.4s;
+}
+
+.upwork-section img:hover {
+    color: var(--clr-accent);
+    box-shadow: 0 0 10px 5px #ff1493;
 }
 
 @media (max-width: 950px) {
