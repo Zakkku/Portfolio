@@ -417,8 +417,8 @@ header {
 }
 
 
-#git-logo {
-    width: 144px;
+#ts-logo {
+    width: 72px;
     margin-left: 10px;
 }
 
@@ -963,8 +963,8 @@ canvas {
         width: 50.4px;
     }
 
-    #git-logo {
-        width: 100.8px;
+    #ts-logo {
+        width: 50px;
     }
 
     #github-logo {
@@ -1004,8 +1004,8 @@ canvas {
         width: 36px;
     }
 
-    #git-logo {
-        width: 72px;
+    #ts-logo {
+        width: 45px;
     }
 
     #github-logo {
