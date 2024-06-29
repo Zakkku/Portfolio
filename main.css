@@ -678,7 +678,7 @@ header {
 }
 
 
-
+/* 
 .blockquote-section div {
 
     display: flex;
@@ -686,7 +686,7 @@ header {
     align-items: center;
     justify-content: center;
 
-}
+} */
 
 @media (max-width: 385px) {
     .section__subtitle--work {
@@ -757,6 +757,7 @@ canvas {
     background-color: #141313;
 }
 
+
 .no-margin-no-padding {
     margin-top: 0;
     /* padding-top: 2.5em;
@@ -776,7 +777,7 @@ canvas {
     flex-direction: column;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1120px) {
     .blockquote-section {
         align-items: center;
         flex-direction: column;
@@ -787,9 +788,13 @@ canvas {
         padding: 10px 0 20px 0;
 
     }
+
+
 }
 
 @media (max-width: 650px) {
+
+
     .blockquote-section__title_container {
         padding: 10px 0 20px 0;
 
