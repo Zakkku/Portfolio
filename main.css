@@ -1060,19 +1060,25 @@ canvas {
 /* Business Partners section*/
 
 .business_partners_section {
+
     text-align: center;
+    padding: 10px 0 0 0;
 
 }
 
 .business_partners_section h2 {
     margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 #larrys_img {
-    width: 80%;
-    margin: 0 auto 25px auto;
-    border-radius: 20px;
+
+    margin: 0 auto 0 auto;
+    /* border-radius: 20px; */
     transition-duration: 0.4s;
+    width: 100%;
+
 }
 
 #larrys_img:hover {
@@ -1081,29 +1087,19 @@ canvas {
 
 @media (min-width: 600px) {
     #larrys_img {
-        width: auto;
-        height: 500px;
+        width: 70%;
+
+    }
+
+    .business_partners_section {
+
+        padding-bottom: 20px;
+
     }
 
     .business_partners_section h2 {
-        margin-bottom: 40px;
-    }
-}
 
-/* job-search-section */
-
-.job-search-section {
-    padding-bottom: 10px;
-}
-
-@media (min-width: 600px) {
-    .job-search-section {
-        width: 36%;
-        margin: 0 auto;
-    }
-
-    h2 {
-        margin-bottom: 20px;
+        font-size: 50px;
     }
 
 
