@@ -1109,3 +1109,22 @@ canvas {
 
 
 }
+
+/* updated styles for portfolio item pages on June 30th, 2024*/
+
+.item_page-logo {
+    max-width: 400px;
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    min-width: 200px;
+}
+
+.item_page-portfolio-item-logo-link {
+    text-decoration: none;
+    color: var(--clr-accent);
+    transition-duration: 0.4s;
+}
+
+.item_page-portfolio-item-logo-link:hover {
+    color: var(--clr-dark);
+}
