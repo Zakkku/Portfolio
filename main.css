@@ -1139,10 +1139,19 @@ canvas {
     font-family: Arial, sans-serif;
 }
 
+#progress-bar-section .section__title {
+    color: #9134EB;
+    /* Purple color for the title */
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
 .progress-container {
     width: 80%;
     max-width: 600px;
-    background-color: #333;
+    background-color: #272727;
     border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
@@ -1151,7 +1160,7 @@ canvas {
 
 .progress-bar {
     width: 100%;
-    background-color: #555;
+    background-color: #494949;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
@@ -1200,4 +1209,19 @@ canvas {
     color: #7A2FB7;
     /* Slightly darker shade of #9134EB for hover */
     text-decoration: underline;
+}
+
+#progressText,
+#expectedCompletionText,
+#elapsedDaysText,
+#averageDailyProgressText {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.expected-completion {
+    margin-top: 20px;
+    color: #9134EB;
+    /* Match your purple theme */
 }
