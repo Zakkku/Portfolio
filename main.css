@@ -1128,3 +1128,76 @@ canvas {
 .item_page-portfolio-item-logo-link:hover {
     color: var(--clr-dark);
 }
+
+/* progress bar styles*/
+
+#progress-bar-section {
+    padding: 40px 20px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.progress-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #555;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.progress-fill {
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #9134EB, #7A2FB7);
+    /* Gradient with #9134EB */
+    transition: width 0.5s ease-in-out;
+}
+
+.progress-percentage {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.progress-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.additional-info {
+    font-size: 0.9em;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.additional-info a {
+    color: #9134EB;
+    text-decoration: none;
+}
+
+.additional-info a:hover {
+    color: #7A2FB7;
+    /* Slightly darker shade of #9134EB for hover */
+    text-decoration: underline;
+}
