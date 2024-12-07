@@ -60,10 +60,10 @@ const progressPercentage = document.getElementById('progressPercentage');
 const progressText = document.getElementById('progressText');
 const expectedCompletionText = document.getElementById('expectedCompletionText');
 const elapsedDaysText = document.getElementById('elapsedDaysText');
-const averageDailyProgressText = document.getElementById('averageDailyProgressText');
+const averageDaysPerStoreText = document.getElementById('averageDaysPerStoreText');
 
 const elapsedDays = Math.floor((today - startDate) / (1000 * 60 * 60 * 24)); // Days elapsed
-const averageDailyProgress = currentProgress / elapsedDays; // Average rate of progress
+const averageDaysPerStore = elapsedDays / currentProgress; // Average days it takes to complete 1 store
 
 const percentage = (currentProgress / totalStoresGoal) * 100;
 
@@ -72,13 +72,13 @@ progressFill.style.width = percentage + '%';
 progressPercentage.textContent = percentage.toFixed(1) + '%';
 progressText.textContent = `Progress: ${currentProgress} / ${totalStoresGoal} Stores`;
 
-// Display elapsed days and average daily progress as text
+// Display elapsed days and average days per store as text
 elapsedDaysText.textContent = `Days elapsed: ${elapsedDays}`;
-averageDailyProgressText.textContent = `Average daily progress: ${averageDailyProgress.toFixed(2)} stores/day`;
+averageDaysPerStoreText.textContent = `Average days to complete a store: ${averageDaysPerStore.toFixed(2)}`;
 
 // Estimate completion date
 const remainingStores = totalStoresGoal - currentProgress;
-const estimatedDaysToComplete = Math.ceil(remainingStores / averageDailyProgress);
+const estimatedDaysToComplete = Math.ceil(remainingStores * averageDaysPerStore);
 
 const expectedCompletionDate = new Date();
 expectedCompletionDate.setDate(today.getDate() + estimatedDaysToComplete);

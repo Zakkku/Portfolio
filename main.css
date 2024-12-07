@@ -1214,7 +1214,7 @@ canvas {
 #progressText,
 #expectedCompletionText,
 #elapsedDaysText,
-#averageDailyProgressText {
+#averageDaysPerStoreText {
     font-size: 1em;
     margin-top: 10px;
     color: #fff;
