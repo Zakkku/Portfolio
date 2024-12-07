@@ -31,3 +31,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setInterval(typeText, 100);
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const currentProgress = 11; // Current progress
+    const totalProgress = 1000; // Total progress
+
+    const progressFill = document.getElementById('progressFill');
+    const progressPercentage = document.getElementById('progressPercentage');
+    const progressText = document.getElementById('progressText');
+
+    const percentage = (currentProgress / totalProgress) * 100;
+
+    // Update the progress bar and text
+    progressFill.style.width = percentage + '%';
+    progressPercentage.textContent = percentage.toFixed(1) + '%'; // Use toFixed(1) for 1 decimal place
+    progressText.textContent = `Progress: ${currentProgress} / ${totalProgress} Stores`;
+});
