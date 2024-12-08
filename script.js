@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
 // progress bar
 
 document.addEventListener('DOMContentLoaded', () => {
-    const currentProgress = 11; // Current progress
-    const totalProgress = 1000; // Total progress
+    const currentProgress = 12; // change here to update progress
+    const totalProgress = 1000;
 
     const progressFill = document.getElementById('progressFill');
     const progressPercentage = document.getElementById('progressPercentage');
@@ -46,12 +46,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update the progress bar and text
     progressFill.style.width = percentage + '%';
-    progressPercentage.textContent = percentage.toFixed(1) + '%'; // Use toFixed(1) for 1 decimal place
+    progressPercentage.textContent = percentage.toFixed(1) + '%' + ' of goal'; // Use toFixed(1) for 1 decimal place
     progressText.textContent = `Progress: ${currentProgress} / ${totalProgress} Stores`;
 });
 
-const currentProgress = 11; // Stores completed
-const totalStoresGoal = 1000; // Goal
+const currentProgress = 12; // change here to update progress
+const totalStoresGoal = 1000;
 const startDate = new Date('2024-07-01');
 const today = new Date();
 
