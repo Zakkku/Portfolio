@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // progress bar
 
 document.addEventListener('DOMContentLoaded', () => {
-    const currentProgress = 30; // change here to update progress
+    const currentProgress = 31; // change here to update progress
     const totalProgress = 1000;
 
     const progressFill = document.getElementById('progressFill');
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     progressText.textContent = `Progress: ${currentProgress} / ${totalProgress} Stores`;
 });
 
-const currentProgress = 30; // change here to update progress
+const currentProgress = 31; // change here to update progress
 const totalStoresGoal = 1000;
 const startDate = new Date('2024-07-01');
 const today = new Date();
@@ -73,7 +73,7 @@ progressPercentage.textContent = percentage.toFixed(1) + '%';
 progressText.textContent = `Progress: ${currentProgress} / ${totalStoresGoal} Stores`;
 
 // Display elapsed days and average days per store as text
-elapsedDaysText.textContent = `Days elapsed: ${elapsedDays}`;
+elapsedDaysText.textContent = `Days since first new store was started: ${elapsedDays}`;
 averageDaysPerStoreText.textContent = `Average days to complete a store: ${averageDaysPerStore.toFixed(2)}`;
 
 // Estimate completion date
