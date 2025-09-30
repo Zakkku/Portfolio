@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // progress bar
 
 document.addEventListener('DOMContentLoaded', () => {
-    const currentProgress = 39; // change here to update progress
+    const currentProgress = 40; // change here to update progress
     const totalProgress = 1000;
 
     const progressFill = document.getElementById('progressFill');
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     progressText.textContent = `Progress: ${currentProgress} / ${totalProgress} Stores`;
 });
 
-const currentProgress = 39; // change here to update progress
+const currentProgress = 40; // change here to update progress
 const totalStoresGoal = 1000;
 const startDate = new Date('2024-07-01');
 const today = new Date();
