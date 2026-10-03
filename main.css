@@ -232,7 +232,7 @@ h3 {
 /* Desktop Styles */
 @media only screen and (min-width: 768px) {
     .container {
-        background-image: url('photos/Web\ Dev\ Japan\ \(9\).png');
+        background-image: url('photos/Web\ Dev\ Japan\ \(9\).webp');
         background-size: cover;
         background-position: center;
     }
@@ -242,7 +242,7 @@ h3 {
 @media only screen and (max-width: 767px) {
     .container {
         height: 170px;
-        background-image: url('photos/Web\ Dev\ Japan\ \(9\)revised.png');
+        background-image: url('photos/Web\ Dev\ Japan\ \(9\)revised.webp');
         background-size: cover;
         background-position: center;
     }
